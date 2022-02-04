@@ -8,6 +8,9 @@ html {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
+a {
+  text-decoration: none;
+}
 .container {
   min-height: 100vh;
   width: 100%;
@@ -310,9 +313,9 @@ p {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: right;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 25px;
   opacity: 0;
   pointer-events: none;
   transition: all 0.4s;
@@ -374,6 +377,11 @@ p {
     height: 400px;
     padding-left: 60px;
   }
+  #about .col-left .about-img {
+    height: 50%;
+    width: 50%;
+    position: relative;
+  }
   #about .col-right {
     text-align: left;
     padding: 30px;
@@ -412,6 +420,11 @@ p {
   #characters .character-bottom .character-item {
     flex-basis: 22%;
     margin: 1.5%;
+  }
+  #about .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
   }
 }
 /* End  Media Query For Desktop */
