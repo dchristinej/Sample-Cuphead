@@ -377,11 +377,6 @@ p {
     height: 400px;
     padding-left: 60px;
   }
-  #about .col-left .about-img {
-    height: 50%;
-    width: 50%;
-    position: relative;
-  }
   #about .col-right {
     text-align: left;
     padding: 30px;
